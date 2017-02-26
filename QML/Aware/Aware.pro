@@ -129,7 +129,7 @@ contains(DEFINES,Q_USE_QML_RC){
 
 OTHER_FILES += $$qrclist # QML folder
 
-RESOURCES += $$[QT_INSTALL_QML]/XjQmlUi/icons/icons_all.qrc
+RESOURCES += $$[QT_INSTALL_QML]/icons/icons_all.qrc
 
 #- end - //////////////////////////////////////////////////////////////////////////////
 
