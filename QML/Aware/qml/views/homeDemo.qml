@@ -16,7 +16,14 @@ Item {
     }
 
     Flow {
-        anchors.centerIn: parent
+        id: flow
+//        anchors.centerIn: parent
+        anchors {
+            horizontalCenter: parent.horizontalCenter
+            top: parent.top
+            topMargin: dp(42)
+        }
+
         spacing: dp(8)
 
         EntryCase {
@@ -37,6 +44,19 @@ Item {
             redu: " 热 801 °"
         }
 
+    }
+
+    PageInfo {
+        height: dp(800)
+
+        anchors {
+            left: flow.left
+            right: flow.right
+            top: flow.bottom
+            topMargin: dp(12)
+        }
+
+        anchors.horizontalCenter: flow.horizontalCenter
     }
 
     ActionButton {

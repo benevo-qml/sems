@@ -46,7 +46,7 @@ View{
 
             Label {
                 id: redu
-                text: ""
+                text: "11"
                 color: "white"
                 Rectangle {
                     anchors.fill: parent
@@ -74,7 +74,7 @@ View{
             }
         }
 
-        ThinDivider {
+        MagicDivider {
             width: parent.width
             anchors.margins: dp(12)
             Layout.margins: dp(12)
@@ -134,7 +134,7 @@ View{
                 implicitHeight: parent.height
                 text: "Introduction"
 
-                ThinDivider {
+                MagicDivider {
                     anchors {
                         left: parent.left
                         right: parent.right
