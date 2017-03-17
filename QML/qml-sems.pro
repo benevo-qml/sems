@@ -8,4 +8,4 @@
 
 TEMPLATE = subdirs
 SUBDIRS += Aware/Aware.pro \
-#	iCIM/iCIM.pro
+        iCIM/iCIM.pro
